@@ -51,8 +51,7 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        String result = "Nombre: " + nombre + "\n" +
-                "Tipo: " + tipo + "\n";
+        String result = "Nombre: " + nombre + "\n" + "Tipo: " + tipo + "\n";
         if (altura != 0) {
             result += "Altura: " + altura + "\n";
         } else {
